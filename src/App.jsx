@@ -3,7 +3,7 @@ import { useState } from 'react';
 import PersonalDetails from './components/PersonalDetails';
 import EducationDetails from './components/EducationDetails';
 import ExperienceDetails from './components/ExperienceDetails';
-import Preview from './components/preview';
+import Preview from './components/Preview';
 import Footer from './components/Footer';
 
 function App() {
