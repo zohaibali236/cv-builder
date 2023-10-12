@@ -13,7 +13,7 @@ export default function Preview({ personal, educational, expInfo }) {
         {personal.name !== '' && (
           <h1 className='text-3xl font-semibold '>{personal.name}</h1>
         )}
-        <div className='flex gap-4'>
+        <div className='flex flex-wrap items-center justify-center gap-4'>
           {personal.email !== '' && (
             <div className='flex items-end gap-1 text-lg'>
               <FontAwesomeIcon className='self-center' icon={faEnvelope} />
